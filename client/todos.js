@@ -175,7 +175,7 @@ Template.todos.todos = function () {
     sel.tags = tag_filter;
 
   sel.done = { $not: true };
-  return Todos.find(sel, {sort: {timestamp: 1}});
+  return Todos.find(sel, {sort: {timestamp: -1}});
 };
 
 Template.todos.done_todos = function () {
