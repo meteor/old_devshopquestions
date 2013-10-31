@@ -219,6 +219,12 @@ h3 {
     margin-top: 15px;
 }
 
+.item-list .todo .todo-timestamp {
+    margin-left: 15px;
+    color: #aaa;
+    font-size: 14px;
+}
+
 .item-list .todo .item-tags .removable_tag {
     padding-right: 22px;
 }
